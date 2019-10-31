@@ -96,6 +96,10 @@ a:hover {
     color: #f8f8f8;
 }
 
+.menu li{
+padding: 10px 0px;
+}
+
 .menu li a {
     padding: 0 30px;
     transition: all .5s;
