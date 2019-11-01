@@ -27,7 +27,7 @@ a:hover {
 }
 
 .introduction {
-    margin: 30px 0;
+    margin-bottom: 30px;
     font-size: 21px;
     font-weight: 300;
     margin-top: 100px;
@@ -61,18 +61,6 @@ a:hover {
 
 }
 
-.navbar {
-    width: 100%;
-    border-radius: 0;
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    margin: 0;
-    border-top: 0;
-    z-index: 400;
-
-}
 
 .container,
 .row {
@@ -80,37 +68,6 @@ a:hover {
     min-height:100%;
 }
 
-.logo {
-    margin: 3px;
- }
-
-.logo .navbar-brand
-{
-    color: #000;
-    font-size: 28px;
-    font-weight: 600;
-}
-
-.logo a:hover,
-.logo a:focus {
-    color: #f8f8f8;
-}
-
-.menu li{
-padding: 10px 0px;
-}
-
-.menu li a {
-    padding: 0 30px;
-    transition: all .5s;
-    color: #f8f8f8;
-    font-weight: 600;
-
-}
-
-.menu li a:hover {
-    color: #000;
-}
 
 .single-section {
     z-index: 200;
@@ -195,57 +152,6 @@ padding: 10px 0px;
     text-shadow: 1px 1px rgb(89, 74, 95);
 }
 
-.portfolio {
-    position: relative;
-    overflow: hidden;
-    border: 2px solid rgba(0, 0, 0, .25);
-    margin: 20px;
-}
-
-.portfolio img {
-    width: 100%;
-    transition: all .5s;
-}
-
-.portfolio:hover img {
-    transform: scale(1.5) rotate(15deg);
-}
-
-.portfolio .btn-primary:not(:hover) {
-    background: rgba(0, 0, 0, .4);
-}
-
-
-
-.portfolio .port-desc {
-    opacity: 0;
-    background: rgba(0, 0, 0, .5);
-    transition: all .25s;
-    color: #f8f8f8;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-}
-
-.portfolio .port-desc p {
-    width: 85%;
-    margin: 30px auto 25px;
-    text-shadow: 1px 1px 3px #000;
-}
-
-.portfolio:hover .port-desc {
-    opacity: 1;
-}
-
-
-.portfolio-additional-text {
-    font-weight: 300;
-    margin-top: 10px;
-}
-
 
 .fa:hover{
 transform: scale(1.4);
@@ -296,6 +202,7 @@ transition: 0.5s;
     border-radius: 0;
     resize: none;
     font-family: inherit;
+    margin-bottom: 10px;
 }
 
 .contact-form textarea.form-control {
@@ -313,6 +220,7 @@ transition: 0.5s;
     box-shadow: none;
     border-width: 2px;
 }
+
 
 .bottom-section,
 .bottom-section .container {
