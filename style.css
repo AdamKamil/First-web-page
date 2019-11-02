@@ -210,9 +210,8 @@ transition: 0.5s;
 }
 
 .contact-form button {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
+    width: auto;
+    display: display-block;
 }
 
 .contact-form .form-control:focus {
