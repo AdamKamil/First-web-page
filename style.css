@@ -162,6 +162,7 @@ transform: scale(1.4);
     
 }
 
+
 .offer h3 {
     font-weight: 300;
     margin-bottom: 25px;
@@ -170,6 +171,7 @@ transform: scale(1.4);
 .offer .fa {
     font-size: 42px;
     transition: 0.5s;
+    margin-bottom: 15px;
 }
 
 
